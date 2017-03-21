@@ -1,0 +1,511 @@
+@charset "utf-8";
+
+/* 屏幕尺寸小于320px */
+
+@media screen and (max-width: 320px) {
+    nav ul {
+        height: .2rem;
+    }
+    nav ul li {
+        font-size: .14rem;
+        line-height: .2rem;
+    }
+    nav ul li a {
+        text-shadow: .015rem .015rem .03rem #666;
+    }
+    nav ul li a:not([href]) {
+        text-shadow: .015rem .015rem .03rem #999;
+    }
+    nav div:last-child {
+        height: .28rem;
+        font-size: .2rem;
+        line-height: .28rem;
+    }
+    nav form input[type="search"] {
+        font-size: .14rem;
+        border-radius: .05rem;
+        padding: .01rem 0;
+        margin-left: .08rem;
+    }
+    article {
+        margin-top: .5rem;
+    }
+    article>div {
+        margin-bottom: .03rem;
+    }
+    /* 首页样式 */
+    .xsqg_left,
+    .xsqg_right {
+        height: 1.6rem;
+    }
+    .timer {
+        margin-bottom: .03rem;
+    }
+    .timer img {
+        margin: 0 .03rem;
+    }
+    .timer div {
+        margin-left: .02rem;
+    }
+    .timer div span {
+        margin: 0 .01rem;
+    }
+    .timer span[id] {
+        width: .16rem;
+        height: .18rem;
+        font-size: .12rem;
+        line-height: .18rem;
+    }
+    .timer span:not([id]) {
+        font-size: .12rem;
+        line-height: .18rem;
+    }
+    .price {
+        top: -1rem;
+        left: .5rem;
+    }
+    .xsqg .price span {
+        width: .75rem;
+        height: .2rem;
+        font-size: .13rem;
+    }
+    /* 首页样式结束 */
+    /* 主题样式 */
+   /* 标题样式 */
+    .titlebar {
+        margin: .03rem 0;
+    }
+    .title_side {
+        margin-top: .07rem;
+    }
+    .title_side_left {
+        width: .12rem;
+        height: .1rem;
+    }
+    .title_side_center {
+        width: .48rem;
+        height: .1rem;
+    }
+    .title_side_right {
+        width: .12rem;
+        height: .1rem;
+    }
+    .xiangshou div {
+        margin-top: .1rem;
+    }
+    .xiangshou span {
+        font-size: .12rem;
+    }
+    .hongren{
+        margin-top: .06rem;
+    }
+    /* 主题样式结束 */
+    /* 品牌样式 */
+    .brand_bg {
+        padding: .08rem 0;
+    }
+    .brand_title {
+        height: .48rem;
+        border-radius: .3rem;
+        font-size: .16rem;
+        line-height: .48rem;
+        margin-bottom: -.25rem;
+    }
+    .brand_body {
+        padding-top: .26rem;
+    }
+    .brand_body td {
+        width: 2rem;
+        padding: 0 .12rem;
+    }
+    .brand_shadow {
+        margin: 0 auto .2rem;
+        border-top: 1px solid red;
+    }
+    /* 品牌样式结束 */
+    /* 返回顶部样式 */
+    .top_back {
+        font-size: .16rem;
+        bottom: .13rem;
+        width: .36rem;
+    }
+}
+
+
+/* 屏幕尺寸大于320px，小于360px */
+
+@media screen and (min-width:321px) and (max-width:361px){
+     nav ul {
+        height: .2rem;
+    }
+    nav ul li {
+        font-size: .14rem;
+        line-height: .2rem;
+    }
+    nav ul li a {
+        text-shadow: .015rem .015rem .03rem #666;
+    }
+    nav ul li a:not([href]) {
+        text-shadow: .015rem .015rem .03rem #999;
+    }
+    nav div:last-child {
+        height: .28rem;
+        font-size: .2rem;
+        line-height: .28rem;
+    }
+    nav form input[type="search"] {
+        font-size: .14rem;
+        border-radius: .05rem;
+        padding: .01rem 0;
+        margin-left: .08rem;
+    }
+    article {
+        margin-top: .5rem;
+    }
+    article>div {
+        margin-bottom: .03rem;
+    }
+    /* 首页样式 */
+    /*.xsqg_left{
+        height:2.;
+    }*/
+    .xsqg_right {
+        height: 2.0rem;
+    }
+    .timer {
+        margin-bottom: .06rem;
+    }
+    .timer div {
+        margin-left: .04rem;
+    }
+    .timer div span {
+        margin: 0 .01rem;
+    }
+    .timer span[id] {
+        width: .2rem;
+        height: .22rem;
+        font-size: .14rem;
+        line-height: .2rem;
+    }
+    .timer span:not([id]) {
+        font-size: .14rem;
+        line-height: .22rem;
+    }
+    .price {
+        top: -1.1rem;
+        left: .9rem;
+        padding-top: .18rem;
+        width: .75rem;
+        height: .75rem;
+    }
+    .xsqg .price span {
+        width: .75rem;
+        height: .2rem;
+        font-size: .16rem;
+    }
+    /* 首页样式结束 */
+    /* 主题样式 */
+   /* 标题样式 */
+    .titlebar {
+        margin: .03rem 0;
+    }
+    .title_side {
+        margin-top: .07rem;
+    }
+    .title_side_left {
+        width: .12rem;
+        height: .1rem;
+    }
+    .title_side_center {
+        width: .48rem;
+        height: .1rem;
+    }
+    .title_side_right {
+        width: .12rem;
+        height: .1rem;
+    }
+    .xiangshou div {
+        margin-top: .1rem;
+    }
+    .xiangshou span {
+        font-size: .12rem;
+    }
+    .hongren{
+        margin-top: .06rem;
+    }
+    /* 主题样式结束 */
+    /* 品牌样式 */
+    .brand_bg {
+        padding: .1rem 0;
+    }
+    .brand_title {
+        height: .6rem;
+        border-radius: .5rem;
+        font-size: .24rem;
+        line-height: .6rem;
+        margin-bottom: -.35rem;
+    }
+    .brand_body {
+        padding-top: .36rem;
+    }
+    .brand_shadow {
+        margin: 0 auto .3rem;
+        border-top: 1px solid red;
+    }
+    .brand_shadow img {
+        width: 100%;
+    }
+    /* 品牌样式结束 */
+    /* 返回顶部样式 */
+    .top_back {
+        font-size: .26rem;
+        right: 0px;
+        bottom: .25rem;
+        width: .52rem;
+    }
+}
+
+
+/* 屏幕尺寸大于360px，小于375px */
+
+@media screen and (min-width:361px) and (max-width:376px){
+    nav ul {
+        height: .3rem;
+    }
+    nav ul li {
+        font-size: .18rem;
+        line-height: .3rem;
+    }
+    nav ul li a {
+        text-shadow: .02rem .02rem .03rem #666;
+    }
+    nav ul li a:not([href]) {
+        text-shadow: .02rem .02rem .03rem #999;
+    }
+    nav div:last-child {
+        height: .34rem;
+        font-size: .2rem;
+        line-height: .34rem;
+    }
+    nav form input[type="search"] {
+        font-size: .18rem;
+        border-radius: .07rem;
+        padding: .025rem 0;
+        margin-left: .18rem;
+    }
+    /*nav form input[type="submit"] {
+        margin: .009rem .16rem;
+    }*/
+    article {
+        margin-top: .7rem;
+    }
+    article>div {
+        margin-bottom: .06rem;
+    }
+    /* 首页样式 */
+    .xsqg_left,
+    .xsqg_right {
+        height: 2.3rem;
+    }
+    .timer {
+        margin-bottom: .06rem;
+    }
+    .timer div {
+        margin-left: .04rem;
+    }
+    .timer div span {
+        margin: 0 .01rem;
+    }
+    .timer span[id] {
+        width: .2rem;
+        height: .22rem;
+        font-size: .14rem;
+        line-height: .2rem;
+    }
+    .timer span:not([id]) {
+        font-size: .14rem;
+        line-height: .22rem;
+    }
+    .price {
+        top: -1.1rem;
+        left: .9rem;
+        padding-top: .18rem;
+        width: .75rem;
+        height: .75rem;
+    }
+    .xsqg .price span {
+        width: .75rem;
+        height: .2rem;
+        font-size: .16rem;
+    }
+    /* 首页样式结束 */
+    /* 主题样式 */
+    /* 标题样式 */
+    .titlebar {
+        margin: .08rem 0;
+    }
+    .title_side {
+        margin-top: .1rem;
+    }
+    .title_side_center {
+        width: .68rem;
+    }
+    .xiangshou div {
+        margin-top: .2rem;
+    }
+    .xiangshou span {
+        font-size: .18rem;
+    }
+    /* 品牌样式 */
+    .brand_bg {
+        padding: .1rem 0;
+    }
+    .brand_title {
+        height: .6rem;
+        border-radius: .5rem;
+        font-size: .24rem;
+        line-height: .6rem;
+        margin-bottom: -.35rem;
+    }
+    .brand_body {
+        padding-top: .36rem;
+    }
+    .brand_shadow {
+        margin: 0 auto .3rem;
+        border-top: 1px solid red;
+    }
+    .brand_shadow img {
+        width: 100%;
+    }
+    /* 品牌样式结束 */
+    /* 返回顶部样式 */
+    .top_back {
+        font-size: .26rem;
+        right: 0px;
+        bottom: .25rem;
+        width: .52rem;
+    }
+}
+
+
+/* 屏幕尺寸大于375px，小于414px */
+
+@media screen and (min-width:376px) and (max-width:415px){
+    nav ul {
+        height: .3rem;
+    }
+    nav ul li {
+        font-size: .18rem;
+        line-height: .3rem;
+    }
+    nav ul li a {
+        text-shadow: .02rem .02rem .03rem #666;
+    }
+    nav ul li a:not([href]) {
+        text-shadow: .02rem .02rem .03rem #999;
+    }
+    nav div:last-child {
+        height: .34rem;
+        font-size: .2rem;
+        line-height: .34rem;
+    }
+    nav form input[type="search"] {
+        font-size: .18rem;
+        border-radius: .07rem;
+        padding: .020rem 0;
+        margin-left: .18rem;
+    }
+    /*nav form input[type="submit"] {
+        margin: .009rem .16rem;
+    }*/
+    article {
+        margin-top: .7rem;
+    }
+    article>div {
+        margin-bottom: .06rem;
+    }
+     /* 首页样式 */
+    .xsqg_left,
+    .xsqg_right {
+        height: 2.3rem;
+    }
+    .timer {
+        margin-bottom: .06rem;
+    }
+    .timer div {
+        margin-left: .04rem;
+    }
+    .timer div span {
+        margin: 0 .01rem;
+    }
+    .timer span[id] {
+        width: .2rem;
+        height: .22rem;
+        font-size: .14rem;
+        line-height: .2rem;
+    }
+    .timer span:not([id]) {
+        font-size: .14rem;
+        line-height: .22rem;
+    }
+    .price {
+        top: -1.1rem;
+        left: .9rem;
+        padding-top: .18rem;
+        width: .75rem;
+        height: .75rem;
+    }
+    .xsqg .price span {
+        width: .75rem;
+        height: .2rem;
+        font-size: .16rem;
+    }
+    /* 首页样式结束 */
+    /* 主题样式 */
+    /* 标题样式 */
+    .titlebar {
+        margin: .08rem 0;
+    }
+    .title_side {
+        margin-top: .1rem;
+    }
+    .title_side_center {
+        width: .68rem;
+    }
+    .xiangshou div {
+        margin-top: .2rem;
+    }
+    .xiangshou span {
+        font-size: .18rem;
+    }
+    /* 主题样式结束 */
+    /* 品牌样式 */
+    .brand_bg {
+        padding: .1rem 0;
+    }
+    .brand_title {
+        height: .6rem;
+        border-radius: .5rem;
+        font-size: .24rem;
+        line-height: .6rem;
+        margin-bottom: -.35rem;
+    }
+    .brand_body {
+        padding-top: .36rem;
+    }
+    .brand_shadow {
+        margin: 0 auto .3rem;
+        border-top: 1px solid red;
+    }
+    .brand_shadow img {
+        width: 100%;
+    }
+    /* 品牌样式结束 */
+    /* 返回顶部样式 */
+    .top_back {
+        font-size: .26rem;
+        right: 0px;
+        bottom: .25rem;
+        width: .52rem;
+    }
+}
